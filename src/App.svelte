@@ -20,6 +20,27 @@
   }
 
   function downloadFor(platform) {
+
+    if ( platform === "linux" )  {
+
+      const link = document.createElement("a");
+      link.href = 'https://downloads77.s3.ap-south-1.amazonaws.com/chak_linux';
+      link.download = 'chak_linux';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+    }
+    else if ( platform !== "win32" ) {
+
+      const link = document.createElement("a");
+      link.href = 'https://downloads77.s3.ap-south-1.amazonaws.com/chak_windows.exe';
+      link.download = 'chak_windows';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+    }
     alert(`Downloading Chak for ${platform}...`);
     // Actual download functionality would be implemented here
   }
@@ -81,7 +102,7 @@
             Windows
           </button>
 
-          <a href="https://github.com/chak-vcs/chak" class="github-button" target="_blank" rel="noopener">
+          <a href="https://github.com/inxeoz/chak-vcs" class="github-button" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" width="18" height="18">
               <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" fill="none" stroke="currentColor" stroke-width="1.5" />
             </svg>
