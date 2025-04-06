@@ -1,4 +1,5 @@
 <script>
+  import logo from './assets/logo.svg';
   import { onMount } from "svelte";
 
   let isMobile = false;
@@ -27,10 +28,7 @@
 <main class={isMobile ? "mobile" : "desktop"}>
   <nav>
     <div class="logo">
-      <svg viewBox="0 0 100 100" width="40" height="40">
-        <path d="M 50 20 L 80 40 L 80 80 L 20 80 L 20 40 Z" fill="none" stroke="#555" stroke-width="3" />
-        <path d="M 35 50 L 45 60 L 65 40" fill="none" stroke="#555" stroke-width="3" />
-      </svg>
+      <img src={logo} alt="logo" />
       <h1>Chak</h1>
     </div>
 
@@ -158,10 +156,7 @@ $ chak commit -m "Add new features"
   <footer>
     <div class="footer-content">
       <div class="footer-logo">
-        <svg viewBox="0 0 100 100" width="30" height="30">
-          <path d="M 50 20 L 80 40 L 80 80 L 20 80 L 20 40 Z" fill="none" stroke="#888" stroke-width="3" />
-          <path d="M 35 50 L 45 60 L 65 40" fill="none" stroke="#888" stroke-width="3" />
-        </svg>
+        <img src={logo} alt="logo" />
         <span>Chak VCS</span>
       </div>
 
@@ -345,21 +340,23 @@ $ chak commit -m "Add new features"
   .download-button {
     background-color: #ede7e3;
     color: #001845;
-    border: none;
+    border: 1px solid #001845;
   }
 
   .download-button:hover {
     background-color: #001845;
+    color: #ede7e3;
   }
 
   .github-button {
     background-color: #ede7e3;
     color: #001845;
-    border: 1px solid #ede7e3;
+    border: 1px solid #001845;
   }
 
   .github-button:hover {
-    background-color: #82c0cc;
+    background-color: #001845;
+    color: #ede7e3;
   }
 
   /* Features Section */
