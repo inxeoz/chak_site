@@ -182,8 +182,8 @@ $ chak commit -m "Add new features"
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #82c0cc;
+    color: #001845;
   }
 
   main {
@@ -197,7 +197,7 @@ $ chak commit -m "Add new features"
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #fff;
+    background-color: #489fb5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0;
@@ -214,7 +214,7 @@ $ chak commit -m "Add new features"
     margin: 0;
     font-size: 1.8rem;
     font-weight: 600;
-    color: #444;
+    color: #001845;
   }
 
   .nav-links {
@@ -229,7 +229,7 @@ $ chak commit -m "Add new features"
     background: none;
     border: none;
     font-size: 1rem;
-    color: #666;
+    color: #001845;
     cursor: pointer;
     padding: 0.5rem 0;
     position: relative;
@@ -237,7 +237,7 @@ $ chak commit -m "Add new features"
   }
 
   .nav-links li.active button {
-    color: #333;
+    color: #001845;
     font-weight: 500;
   }
 
@@ -248,7 +248,7 @@ $ chak commit -m "Add new features"
     left: 0;
     right: 0;
     height: 2px;
-    background-color: #666;
+    background-color: #001845;
   }
 
   .menu-button {
@@ -264,7 +264,7 @@ $ chak commit -m "Add new features"
   .menu-button .bar {
     width: 24px;
     height: 2px;
-    background-color: #555;
+    background-color: #001845;
     transition: all 0.3s;
   }
 
@@ -272,7 +272,7 @@ $ chak commit -m "Add new features"
     display: flex;
     padding: 3rem 2rem;
     gap: 2rem;
-    background-color: #f3f3f3;
+    background-color: #82c0cc;
     min-height: 60vh;
     align-items: center;
   }
@@ -286,12 +286,12 @@ $ chak commit -m "Add new features"
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 1.2;
-    color: #333;
+    color: #001845;
   }
 
   .hero-content p {
     font-size: 1.1rem;
-    color: #555;
+    color: #001845;
     margin-bottom: 2rem;
     max-width: 500px;
   }
@@ -304,7 +304,7 @@ $ chak commit -m "Add new features"
   }
 
   .code-block {
-    background-color: #282c34;
+    background-color: #001845;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -319,7 +319,7 @@ $ chak commit -m "Add new features"
   }
 
   .code-block code {
-    color: #d4d4d4;
+    color: #82c0cc;
     line-height: 1.6;
   }
 
@@ -343,36 +343,36 @@ $ chak commit -m "Add new features"
   }
 
   .download-button {
-    background-color: #6b6b6b;
-    color: white;
+    background-color: #ede7e3;
+    color: #001845;
     border: none;
   }
 
   .download-button:hover {
-    background-color: #555;
+    background-color: #001845;
   }
 
   .github-button {
-    background-color: #eaeaea;
-    color: #333;
-    border: 1px solid #ddd;
+    background-color: #ede7e3;
+    color: #001845;
+    border: 1px solid #ede7e3;
   }
 
   .github-button:hover {
-    background-color: #ddd;
+    background-color: #82c0cc;
   }
 
   /* Features Section */
   .features {
     padding: 4rem 2rem;
-    background-color: #fff;
+    background-color: #82c0cc;
   }
 
   .features h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #001845;
   }
 
   .feature-grid {
@@ -385,7 +385,7 @@ $ chak commit -m "Add new features"
 
   .feature-card {
     padding: 2rem;
-    background-color: #f8f8f8;
+    background-color: #ede7e3;
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
@@ -401,17 +401,17 @@ $ chak commit -m "Add new features"
 
   .feature-card svg {
     margin-bottom: 1.5rem;
-    color: #555;
+    color: #001845;
   }
 
   .feature-card h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #001845;
   }
 
   .feature-card p {
-    color: #666;
+    color: #001845;
     line-height: 1.6;
   }
 
@@ -419,7 +419,7 @@ $ chak commit -m "Add new features"
   .placeholder {
     padding: 4rem 2rem;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: #82c0cc;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -430,17 +430,17 @@ $ chak commit -m "Add new features"
   .placeholder h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #001845;
   }
 
   .placeholder p {
-    color: #666;
+    color: #001845;
     font-size: 1.1rem;
   }
 
   /* Footer */
   footer {
-    background-color: #f3f3f3;
+    background-color: #489fb5;
     padding: 2rem;
     margin-top: auto;
   }
@@ -452,14 +452,14 @@ $ chak commit -m "Add new features"
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 1.5rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ede7e3;
   }
 
   .footer-logo {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #555;
+    color: #001845;
   }
 
   .footer-links {
@@ -468,18 +468,18 @@ $ chak commit -m "Add new features"
   }
 
   .footer-links a {
-    color: #666;
+    color: #001845;
     text-decoration: none;
     transition: color 0.2s;
   }
 
   .footer-links a:hover {
-    color: #333;
+    color: #001845;
   }
 
   .copyright {
     text-align: center;
-    color: #888;
+    color: #001845;
     font-size: 0.9rem;
     margin-top: 1.5rem;
   }
